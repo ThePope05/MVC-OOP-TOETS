@@ -11,7 +11,7 @@ function retInfo(){
         echo $e->getMessage();
     }
 
-    $sql = "SELECT * FROM nailShop";
+    $sql = "SELECT * FROM richestsingers";
 
     $statement = $pdo->prepare($sql);
 
